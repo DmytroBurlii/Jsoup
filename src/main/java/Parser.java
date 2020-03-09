@@ -56,7 +56,7 @@ public class Parser {
     public static boolean open(){
         try {
             Class.forName("org.sqlite.JDBC");
-            con = DriverManager.getConnection("jdbc:sqlite:database.db");
+            con = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Dima\\IdeaProjects\\Parser\\database.db");
             System.out.println("Connected");
             return true;
         }
